@@ -1,0 +1,12 @@
+#--------Entrada------------------------------------------------
+temperatura = float(input("Ingresa la temperatura(°C):"))
+latidos = int(input("Ingresa los latidos por minuto:"))
+saturacion = int(input("Ingresa el porcentaje de saturacion:")) 
+
+#---------Diagrama----------------------------------------------
+if temperatura >= 39:
+    print("Estado amarillo")
+elif saturacion < 90 or latidos >120:
+    print("Estado rojo")
+else:
+    print("Estado verde")
