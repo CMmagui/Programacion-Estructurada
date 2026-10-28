@@ -1,45 +1,21 @@
 {
   "pregunta": "¿Es una persona real?",
   "si": {
-    "pregunta": "Bigote",
+    "pregunta": "¿Tiene bigote?",
     "si": {
       "respuesta": "Cantinflas"
     },
     "no": {
-      "pregunta": "¿Es el papá de toda latinoamerica?",
-      "si": {
-        "respuesta": "Chayanne"
-      },
-      "no": {
-        "respuesta": "Albert Einstein"
-      }
+      "respuesta": "Albert Einstein"
     }
   },
   "no": {
     "pregunta": "¿Se distingue por usar color rojo?",
     "si": {
-      "respuesta": "Era ladybug"
+      "respuesta": "ladybug"
     },
     "no": {
-      "pregunta": "¿Tu personaje es claustrofobico?",
-      "si": {
-        "respuesta": "Snoopy"
-      },
-      "no": {
-        "pregunta": "¿Tu personaje suele llevar 2 trenzas?",
-        "si": {
-          "respuesta": "Merlina Addams"
-        },
-        "no": {
-          "pregunta": "¿Tu personaje da clases los jueves?",
-          "si": {
-            "respuesta": "Shrek"
-          },
-          "no": {
-            "respuesta": "Harry Potter"
-          }
-        }
-      }
+      "respuesta": "Harry Potter"
     }
   }
 }
