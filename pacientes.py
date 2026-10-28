@@ -19,7 +19,7 @@ with open('pacientes_ordenados.csv', mode='w', newline='', encoding='utf-8') as 
     escritor.writerow(encabezado)
     escritor.writerows(filas)
 
-print("\n--- PRIMEROS 10 PACIENTES ORDENADOS POR APELLIDO ---")
+print(" PRIMEROS 10 PACIENTES ORDENADOS POR APELLIDO")
 for fila in filas[:10]:
     print(fila)
 
